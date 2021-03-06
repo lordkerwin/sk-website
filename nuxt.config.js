@@ -68,4 +68,9 @@ export default {
         name: 'page',
         mode: 'out-in',
     },
+
+    layoutTransition: {
+        name: 'layout',
+        mode: 'out-in',
+    },
 }

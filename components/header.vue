@@ -4,7 +4,6 @@
             <div class="flex flex-row items-center justify-end">
                 <div class="space-x-4">
                     <nuxt-link to="/" class="link">home</nuxt-link>
-                    <nuxt-link to="/about" class="link">about</nuxt-link>
                     <nuxt-link to="/work" class="link">work</nuxt-link>
                     <nuxt-link to="/articles" class="link">articles</nuxt-link>
                 </div>
