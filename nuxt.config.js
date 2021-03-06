@@ -19,7 +19,15 @@ export default {
             lang: 'en',
         },
 
-        link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+        link: [
+            { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+            { rel: 'preconnect', href: 'https://fonts.gstatic.com' },
+            {
+                rel: 'stylesheet',
+                href:
+                    'https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap',
+            },
+        ],
     },
 
     // Global CSS: https://go.nuxtjs.dev/config-css
@@ -41,11 +49,23 @@ export default {
     modules: [
         // https://go.nuxtjs.dev/axios
         '@nuxtjs/axios',
+        '@nuxtjs/dayjs',
     ],
+
+    dayjs: {
+        locales: ['en'],
+        defaultLocale: 'en',
+        plugins: ['relativeTime', 'advancedFormat'],
+    },
 
     // Axios module configuration: https://go.nuxtjs.dev/config-axios
     axios: {},
 
     // Build Configuration: https://go.nuxtjs.dev/config-build
     build: {},
+
+    pageTransition: {
+        name: 'page',
+        mode: 'out-in',
+    },
 }
