@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="pb-10">
         <header class="my-10">
             <app-header></app-header>
         </header>
