@@ -1,0 +1,36 @@
+html,
+body {
+    @apply text-gray-800;
+}
+
+.page-enter-active,
+.page-leave-active {
+    transition-property: opacity;
+    transition-timing-function: ease-in-out;
+    transition-duration: 200ms;
+}
+.page-enter,
+.page-leave-to {
+    opacity: 0;
+}
+
+.layout-enter-active,
+.layout-leave-active {
+    transition: opacity 0.25s ease-in-out, transform 0.25s ease-in-out;
+}
+.layout-enter,
+.layout-leave-to {
+    opacity: 0;
+    transform: translate3d(0, -55px, 0);
+}
+
+a {
+    @apply text-teal-500;
+    @apply transition;
+    @apply duration-75;
+    @apply ease-in;
+}
+
+a:hover {
+    @apply text-teal-600;
+}
