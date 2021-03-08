@@ -3,6 +3,8 @@
         <div class="p-2 flex flex-col space-y-8">
             <img
                 src="~/assets/img/me.jpg"
+                width="140"
+                height="140"
                 class="rounded-full w-32 ring-4 ring-teal-500 ring-offset-2"
                 alt="Sean Kerwin Profile Pic"
             />
