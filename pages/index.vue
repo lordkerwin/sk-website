@@ -13,7 +13,7 @@
                 <div>
                     <div class="text-xl font-bold">
                         Hey, I'm
-                        <a href="https://twitter.come/lordkerwin" target="_blank" rel="noreferrer"
+                        <a href="https://twitter.com`/lordkerwin" target="_blank" rel="noreferrer"
                             >Sean</a
                         >
                     </div>
