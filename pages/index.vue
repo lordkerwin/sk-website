@@ -13,7 +13,7 @@
                 <div>
                     <div class="text-xl font-bold">
                         Hey, I'm
-                        <a href="https://twitter.com/lordkerwin" target="_blank" rel="noreferrer"
+                        <a href="https://twitter.com/lrdkrwn" target="_blank" rel="noreferrer"
                             >Sean</a
                         >
                     </div>
@@ -34,7 +34,7 @@
                     <nuxt-link to="/articles" class="link">articles &rarr; </nuxt-link>
                 </div>
                 <div class="flex flex-row space-x-4 items-center">
-                    <a href="https://twitter.com/lordkerwin" target="_blank" rel="noreferrer">
+                    <a href="https://twitter.com/lrdkrwn" target="_blank" rel="noreferrer">
                         <svg
                             role="img"
                             class="w-6 h-6"
